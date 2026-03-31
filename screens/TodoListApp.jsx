@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Alert, StyleSheet, Text, View } from 'react-native';
 import TodoForm from '../components/TodoForm';
 import TodoList from '../components/TodoList';
-import { getData, storeData } from '../components/utils/storage';
+import { getData, storeData } from '../utils/storage';
 
 const TodoListApp = () => {
     const [todos, setTodos] = useState([]);
